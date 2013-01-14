@@ -20,8 +20,7 @@ public class Calculate {
 	public int square(int i){
 		return i*i;
 	}
-         public int mult(int x, int y) {
+    public int mult(int x, int y) {
 		return x * y;
 	}
-
 }
