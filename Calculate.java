@@ -20,4 +20,7 @@ public class Calculate {
 	public double mod(double x, double y){
 		return x%y;
 	}
+	public double sqrt(int i){
+		return Math.sqrt(i);
+	}
 }
