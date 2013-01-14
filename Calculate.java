@@ -23,7 +23,7 @@ public class Calculate {
 	}
         
         public int mult(int x, int y) {
-		return x / y;
+		return x * y;
 	}
 	
 	public int reduplucate(int x) {
