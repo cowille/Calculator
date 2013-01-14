@@ -1,6 +1,6 @@
 public class Calculate {
 
-
+//Änderung
 	public int mult(int x, int y) {
 		int p;
 		p = x * y;
