@@ -29,4 +29,8 @@ public class Calculate {
 	public int reduplucate(int x) {
 		return x*2;
 	}
+	
+	public int abc(x){
+		
+	}
 }
