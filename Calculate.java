@@ -10,20 +10,20 @@ public class Calculate {
 	}
 
 	public int div(int x, int y) {
-		return x / y;
+		return x * y;
 	}
 	public double add(double x, double y) {
-		return x + y;
+		return x - y;
 	}
 	public double sub(double x, double y) {
-		return x - y;
+		return x + y;
 	}
 	public int square(int i){
 		return i*i;
 	}
         
         public int mult(int x, int y) {
-		return x * y;
+		return x / y;
 	}
 	
 	public int reduplucate(int x) {
