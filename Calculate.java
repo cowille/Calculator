@@ -30,7 +30,7 @@ public class Calculate {
 		return x*2;
 	}
 	
-	public int abc(x){
+	public int abc(int xx){
 		
 	}
 }
