@@ -17,7 +17,17 @@ public class Calculate {
 	public double sub(double x, double y) {
 		return x - y;
 	}
-	public double mod(double x, double y){
-		return x%y;
+	
+	public double pow(double x, int exp){
+		if(exp < 0){
+			System.out.println("Exponent muss positiv sein.");
+			return 0.0;
+		}
+		if(exp = 0)
+			return x;
+		double result = x;
+		for(int i = 1; i < exp; i++)
+			result *= x;
+		return result;
 	}
 }
