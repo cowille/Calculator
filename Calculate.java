@@ -23,4 +23,8 @@ public class Calculate {
 	public double sqrt(int i){
 		return Math.sqrt(i);
 	}
+         public int mult(int x, int y) {
+		return x * y;
+	}
+
 }
