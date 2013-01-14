@@ -33,4 +33,9 @@ public class Calculate {
 	public int modulo(int x, int y){
 		return x % y;
 	}
+	
+	public int potency(int x, int y){
+		
+		return Math.pot(x,y);
+	}
 }
