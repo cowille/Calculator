@@ -31,6 +31,6 @@ public class Calculate {
 	}
 	
 	public int abc(int xx){
-		
+		return xx;
 	}
 }
