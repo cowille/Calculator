@@ -1,5 +1,6 @@
 public class Calculate {
 
+
 	public int mult(int x, int y) {
 		int p;
 		p = x * y;
@@ -20,8 +21,12 @@ public class Calculate {
 	public int square(int i){
 		return i*i;
 	}
-         public int mult(int x, int y) {
+        
+        public int mult(int x, int y) {
 		return x * y;
 	}
-
+	
+	public int reduplucate(int x) {
+		return x*2;
+	}
 }
