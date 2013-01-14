@@ -17,4 +17,7 @@ public class Calculate {
 	public double sub(double x, double y) {
 		return x - y;
 	}
+	public double mod(double x, double y){
+		return x%y;
+	}
 }
