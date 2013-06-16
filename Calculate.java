@@ -29,7 +29,7 @@ public class Calculate {
 	public int reduplucate(int x) {
 		return x*2;
 	}
-	
+	//my?
 	public int modulo(int x, int y){
 		return x % y;
 	}
