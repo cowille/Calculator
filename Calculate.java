@@ -7,4 +7,8 @@ public class Calculate {
 	public double sub(double x, double y) {
 		return x - y;
 	}
+	
+	public double mult(double x, double y){
+		return x * y;
+	}
 }
