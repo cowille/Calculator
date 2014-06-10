@@ -8,12 +8,26 @@ public class CalculateTest {
 	
 	@Before
 	public void setUp() throws Exception {
-	calc = new Calculate();	
+    calc = new Calculate();
 	}
 
-    @Test
-    public void mult() {
-        assertEquals(3, calc.mult(1, 3));
-        assertEquals(6, calc.div(120, 20) );
+  @Test
+  public void mult() {
+    assertEquals(3, calc.mult(1, 3));
+  }
+
+  @Test
+  public void div() {
+    assertEquals(6, calc.div(120, 20));
+  }
+
+  @Test
+  public void add() {
+    assertEquals(15, calc.add(10, 5));
+  }
+
+  @Test
+  public void sub() {
+    assertEquals(3, calc.sub(10, 7));
   }
 }
