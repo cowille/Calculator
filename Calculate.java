@@ -11,4 +11,14 @@ public class Calculate {
 	public double mult(double x, double y){
 		return x * y;
 	}
+	
+	/* Gruppe Gebhard, Velten */
+	public double mod(double x, double y){
+		return x%y;
+	}
+	
+	/* Gruppe Gebhard, Velten */
+	public double sqrt(double x){
+		return Math.sqrt(x);
+	}
 }
