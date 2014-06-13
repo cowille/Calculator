@@ -12,7 +12,15 @@ public class Calculate {
 		return x * y;
 	}
 	
-	public double div(double x, double y) {
+	public double div(double x, double y){
 		return x / y;
+	}
+	
+	public double mod(double x, double y){
+		return x % y;
+	}
+	
+	public double sqrt(double x){
+		return Math.sqrt(x);
 	}
 }
