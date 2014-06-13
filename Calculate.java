@@ -11,4 +11,12 @@ public class Calculate {
 	public double mult(double x, double y){
 		return x * y;
 	}
+	
+	public double mod(double x, double y){
+		return x%y;
+	}
+	
+	public double sqrt(double x){
+		return Math.sqrt(x);
+	}
 }
