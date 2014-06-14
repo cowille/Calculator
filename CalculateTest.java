@@ -1,19 +1,19 @@
-import static org.junit.Assert.*;
-import org.junit.Before;
-import org.junit.Test;
-
-public class CalculateTest {
-
-	Calculate calc;
-	
-	@Before
-	public void setUp() throws Exception {
-	calc = new Calculate();	
+public class CalculateTest{
+	public static void main(String[] args){
+		Calculate cal = new Calculate();
+		System.out.println("123.132 + 17.77 = " + cal.add(123.123, 17.77));
+		System.out.println("123.132 - 17.77 = " + cal.sub(123.123, 17.77));
+		System.out.println("123.132 * 17.77 = " + cal.mult(123.123, 17.77));
+		System.out.println("123.132 / 17.77 = " + cal.div(123.123, 17.77));
+		System.out.println("123.132 % 17.77 = " + cal.mod(123.123, 17.77));
+		System.out.println("sqrt(123,123) = " + cal.sqrt(123.123));
+		System.out.println("Result of first calculations was: " + cal.getPreviousCalc(0));
+		System.out.println("Result of 100th calculations was: ");
+		try{
+			System.out.println(cal.getPreviousCalc(100));
+		}
+		catch(Exception ex){
+			System.out.println(ex);
+		}
 	}
-
-    @Test
-    public void mult() {
-        assertEquals(3, calc.mult(1, 3));
-        assertEquals(6, calc.div(120, 20) );
-  }
 }
