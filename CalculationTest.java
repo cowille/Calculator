@@ -1,4 +1,4 @@
-public class CalculateTest{
+public class CalculationTest{
 	public static void main(String[] args){
 		Calculate cal = new Calculate();
 		System.out.println("123.132 + 17.77 = " + cal.add(123.123, 17.77));
