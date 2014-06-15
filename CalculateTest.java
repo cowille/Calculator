@@ -34,4 +34,14 @@ public class CalculateTest {
   public void pow() {
   	assertEquals(8, calc.pow(2, 3));
   }
+  
+  @Test
+  public void squared(){
+  	asserEquals(4, calc.square(2,2));
+  }
+  
+  @Test
+  public void half(){
+  	asserEquals(10, calc.half(20));
+  }
 }
