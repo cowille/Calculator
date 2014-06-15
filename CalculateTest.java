@@ -16,4 +16,8 @@ public class CalculateTest {
         assertEquals(3, calc.mult(1, 3));
         assertEquals(6, calc.div(120, 20) );
   }
+  @Test
+  public void pow() {
+  	assertEquals(8, calc.pow(2, 3));
+  }
 }
