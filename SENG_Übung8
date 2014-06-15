@@ -1,0 +1,68 @@
+// Klasse CalculateTest
+public class CalculateTest {
+
+Calculate calc;
+
+
+public void setUp() throws Exception {
+    calc = new Calculate();
+}
+
+  
+  public void mult() {
+    assertEquals(3, calc.mult(1, 3));
+  }
+
+
+
+public void div() {
+    assertEquals(6, calc.div(120, 20));
+  }
+
+  
+  public void add() {
+    assertEquals(15, calc.add(10, 5));
+  }
+
+  
+  public void sub() {
+    assertEquals(3, calc.sub(10, 7));
+  }
+
+  public void pow() {
+   assertEquals(8, calc.pow(2, 3));
+  }
+  
+  private void assertEquals(int i, double j) {
+	  if(i==j){
+		  System.out.println("Confirmed!");
+	  }else{
+		  System.out.println("Not Confirmed!");		  
+	  }
+  }
+}
+
+// Klasse Calculate
+
+public class Calculate {
+
+	public double pow(int i, int j) {
+		return(Math.pow(i,j));
+	}
+
+	public double mult(int i, int j) {
+		return i*j;
+	}
+
+	public double div(int i, int j) {
+		return i/j;
+	}
+
+	public double add(int i, int j) {
+		return i+j;
+	}
+
+	public double sub(int i, int j) {
+		return i-j;
+	}
+}
