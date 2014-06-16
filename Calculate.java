@@ -15,4 +15,8 @@ public class Calculate {
 	public double div(double x, double y) {
 		return x / y;
 	}
+	
+	public int calcFact(int fact){
+		return fact == 0 ? 1 : fact*calcFact(fact-1);
+	}
 }
